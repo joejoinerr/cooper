@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cooper-backend"
+version = "1.0.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.21.1"
+fastapi = "^0.95.0"
+deta = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

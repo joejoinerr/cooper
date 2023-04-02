@@ -1,0 +1,14 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+app_name: "Cooper"
+micros:
+- name: backend
+  src: ./backend
+  engine: python3.9
+  path: /api/
+  dev: poetry run uvicorn main:app --reload
+
+- name: frontend
+  src: ./frontend
+  engine: vue
+  primary: true
