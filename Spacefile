@@ -6,10 +6,10 @@ micros:
   src: ./backend
   engine: python3.9
   path: /api/
-  dev: poetry run uvicorn main:app --reload
+  dev: poetry run uvicorn main:app --reload --port=$PORT
 
 - name: frontend
   src: ./frontend
   engine: vue
   primary: true
-  dev: yarn run dev
+  dev: yarn run dev --port=$PORT
