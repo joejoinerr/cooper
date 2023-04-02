@@ -12,4 +12,4 @@ micros:
   src: ./frontend
   engine: vue
   primary: true
-  dev: yarn run dev --port=$PORT
+  dev: yarn run dev --port=$PORT --no-open
