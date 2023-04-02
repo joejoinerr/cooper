@@ -12,3 +12,4 @@ micros:
   src: ./frontend
   engine: vue
   primary: true
+  dev: yarn run dev
