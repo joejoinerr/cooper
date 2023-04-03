@@ -29,8 +29,9 @@ fetchAllCoupons().then((response) => {
         </template>
       </Coupon>
     </template>
-    <div v-else>
-      No coupons yet :)
+    <div v-else class="text-center">
+      No coupons yet :)<br>
+      Tap "Add" to create one.
     </div>
   </div>
 </template>
