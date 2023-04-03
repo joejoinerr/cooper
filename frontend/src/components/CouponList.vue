@@ -4,13 +4,13 @@ import Coupon from './Coupon.vue';
 
 async function fetchAllCoupons() {
   const res = await fetch('/api/coupons');
-  return await res.json();
+  const jsonData = await res.json();
+  return jsonData.coupons;
 }
 
 const couponList = ref([]);
-fetchAllCoupons().then((response) => {
-  couponList.value = response.coupons
-  console.log(couponList.value)
+fetchAllCoupons().then((data) => {
+  couponList.value = data
 })
 </script>
 
