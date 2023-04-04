@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@vitejs/plugin-vue", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:4.1.0"],\
             ["autoprefixer", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:10.4.14"],\
+            ["date-fns", "npm:2.29.3"],\
             ["postcss", "npm:8.4.21"],\
             ["tailwindcss", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:3.3.1"],\
             ["vite", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:4.2.1"],\
@@ -827,6 +828,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cooper", "workspace:."],\
             ["@vitejs/plugin-vue", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:4.1.0"],\
             ["autoprefixer", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:10.4.14"],\
+            ["date-fns", "npm:2.29.3"],\
             ["postcss", "npm:8.4.21"],\
             ["tailwindcss", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:3.3.1"],\
             ["vite", "virtual:c7cf80996213fb0d1599a81aa8875041f276b6422150f28993971487109dbbfe634c7d64e3783a11ffab550b63db940d35af871b4276d3a6c10eaf073df13c42#npm:4.2.1"],\
@@ -849,6 +851,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/csstype-npm-2.6.21-49408157d8-2ce8bc8323.zip/node_modules/csstype/",\
           "packageDependencies": [\
             ["csstype", "npm:2.6.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["date-fns", [\
+        ["npm:2.29.3", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.29.3-fef7e3c72c-e01cf5b62a.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:2.29.3"]\
           ],\
           "linkType": "HARD"\
         }]\
