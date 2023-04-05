@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <button class="block  px-4  py-3  leading-4" :class="buttonClass">
+  <button class="block  px-4  py-3  leading-4">
     <slot></slot>
   </button>
 </template>

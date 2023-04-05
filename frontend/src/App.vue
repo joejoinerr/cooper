@@ -5,7 +5,7 @@ import { couponList } from './store.js'
 import AppHeader from './components/AppHeader.vue';
 import Coupon from './components/Coupon.vue';
 
-couponList.refreshCouponList()
+couponList.refresh()
 
 function isoDate(date) {
   return format(new Date(date), 'yyyy-MM-dd')
@@ -16,7 +16,7 @@ function isoDate(date) {
   <AppHeader/>
   <div class="px-4">
     <template v-if="couponList.items.length">
-      <Coupon v-for="coupon in couponList.items">
+      <Coupon class="mb-8" v-for="coupon in couponList.items">
         <template #brand-name>
           {{ coupon.brand }}
         </template>

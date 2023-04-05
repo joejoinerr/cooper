@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-8  border  border-black">
+  <div class="border  border-black">
     <div class="px-4  py-2  bg-orange-500"><!-- Brand banner -->
       <slot name="brand-name"></slot>
     </div>
